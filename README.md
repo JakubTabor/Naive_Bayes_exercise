@@ -4,3 +4,4 @@
 # I have my data ready, so I import "train_test_split" and get "train" and "test" set, my "X" is "wine.data" and "y" "wine.target"
 # Now I import two models "GaussianNB", "MultinomialNB" 
 # First I train "GaussianNB" """model.fit(X_train, y_train)""" and get score """model.score(X_test, y_test)"""
+# Then i train "MultinomialNB" """mn.fit(X_train, y_train)""" and get score """mn.score(X_test, y_test)"""
