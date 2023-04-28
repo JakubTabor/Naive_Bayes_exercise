@@ -5,3 +5,4 @@
 # Now I import two models "GaussianNB", "MultinomialNB" 
 # First I train "GaussianNB" """model.fit(X_train, y_train)""" and get "score" """model.score(X_test, y_test)"""
 # Then i train "MultinomialNB" """mn.fit(X_train, y_train)""" and get "score" """mn.score(X_test, y_test)"""
+# My first model "GaussianNB" have better performance
